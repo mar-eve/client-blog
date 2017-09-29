@@ -1,0 +1,32 @@
+
+/* .   */
+* {
+	box-sizing: content-box;
+}
+
+h1 {
+
+	font-family: 'Cabin Sketch', cursive;
+	font-size: 96px;
+	color: #e8ce7e;
+    padding:80px 80px;
+
+}
+
+h1.title {
+	font-family: 'NTR', sans-serif;
+	font-size: 64px;
+	color: #ed2461;
+	padding: 0;
+}
+
+header {
+    height: 500px;
+    width: 100%;
+	/*background: #ecebe6 url(images/strawberries.jpg) 100% 100% no-repeat;*/
+	background: #ecebe6 url(images/singleBerry.png) 100% 100% no-repeat;
+}
+
+p{
+	margin: 0 0 10px;
+}
