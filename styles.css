@@ -9,7 +9,7 @@ h1 {
 	font-family: 'Cabin Sketch', cursive;
 	font-size: 96px;
 	color: #e8ce7e;
-    padding:80px 80px;
+    padding:100px 90px;
 
 }
 
@@ -28,5 +28,7 @@ header {
 }
 
 p{
-	margin: 0 0 10px;
+	font-family: 'NTR', sans-serif;
+	font-size:18px;
+	margin: 10px 50px 10px 70px;
 }
