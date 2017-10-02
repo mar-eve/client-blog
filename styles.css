@@ -8,23 +8,25 @@ h1 {
 
 	font-family: 'Cabin Sketch', cursive;
 	font-size: 96px;
-	color: #e8ce7e;
-    padding:100px 90px;
+	/*color: #e8ce7e;*/
+	color:#ed2461;
+    	padding:40px 200px;
 
 }
 
 h1.title {
 	font-family: 'NTR', sans-serif;
 	font-size: 64px;
-	color: #ed2461;
+	/*color: #ed2461;*/
+	color: #e8ce7e;
 	padding: 0;
 }
 
 header {
-    height: 500px;
+    height: 550px;
     width: 100%;
 	/*background: #ecebe6 url(images/strawberries.jpg) 100% 100% no-repeat;*/
-	background: #ecebe6 url(images/singleBerry.png) 100% 100% no-repeat;
+	background: #ecebe6 url(images/singleBerry1.jpg) 70% 100% no-repeat;
 }
 
 p{
