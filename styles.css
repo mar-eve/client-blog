@@ -3,6 +3,41 @@
 * {
 	box-sizing: content-box;
 }
+nav {
+	font-size: 20px ;
+	background-color: #ed2461;
+	color: #ecebe6;
+	padding-left: 10%;
+	margin-bottom: -50px;
+	
+
+}
+nav p{
+	display:inline-block;
+	padding-right:25px;
+}
+
+header {
+    height: 550px;
+    width: 100%;
+	/*background: #ecebe6 url(images/strawberries.jpg) 100% 100% no-repeat;*/
+	background: #ecebe6 url(images/singleBerry1.jpg) 70% 100% no-repeat;
+	margin: 0;
+}
+
+article {
+	display:flex;
+	flex-direction: row;
+
+}
+div.currentpost {
+	width: 80%;
+	padding: 0 10%;
+}
+
+div.pastposts {
+	width: 20%;
+}
 
 h1 {
 
@@ -10,7 +45,7 @@ h1 {
 	font-size: 96px;
 	/*color: #e8ce7e;*/
 	color:#ed2461;
-    	padding:40px 200px;
+    padding:40px 200px;
 
 }
 
@@ -22,14 +57,10 @@ h1.title {
 	padding: 0;
 }
 
-header {
-    height: 550px;
-    width: 100%;
-	/*background: #ecebe6 url(images/strawberries.jpg) 100% 100% no-repeat;*/
-	background: #ecebe6 url(images/singleBerry1.jpg) 70% 100% no-repeat;
-}
 
-p{
+
+
+article p{
 	font-family: 'NTR', sans-serif;
 	font-size:18px;
 	margin: 10px 50px 10px 70px;
