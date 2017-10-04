@@ -3,65 +3,127 @@
 * {
 	box-sizing: content-box;
 }
+
+body {
+	background-color:#e8ce7e;
+}
 nav {
-	font-size: 20px ;
+	height: 70px;
 	background-color: #ed2461;
 	color: #ecebe6;
-	padding-left: 10%;
-	margin-bottom: -50px;
+	padding-left: 5%;
+	margin-bottom: -70px;
 	
 
 }
-nav p{
+nav a{
+	color: #ffffff;
+	font-family: 'NTR', sans-serif;
+	font-size: 20px;
+	text-decoration: none;
 	display:inline-block;
-	padding-right:25px;
+	padding: 20px 20px;
 }
 
 header {
     height: 550px;
     width: 100%;
 	/*background: #ecebe6 url(images/strawberries.jpg) 100% 100% no-repeat;*/
-	background: #ecebe6 url(images/singleBerry1.jpg) 70% 100% no-repeat;
+	background: #ecebe6 url(images/singleBerry1.jpg);
+	background-repeat:no-repeat; 
+	background-size:contain; 
+	background-position:center; 
 	margin: 0;
 }
 
-article {
+main {
 	display:flex;
 	flex-direction: row;
+	margin-top: 5%;
+
 
 }
 div.currentpost {
-	width: 80%;
-	padding: 0 10%;
+	display: flex;
+	flex-direction: column;
+	background-color: #ffffff;
+	width: 55%;
+	padding: 0 5% 0 5%;
+	margin: 0 3% 0 3%;
 }
 
 div.pastposts {
-	width: 20%;
+	display: flex;
+	flex-direction: column;
+	align-content: space-around;
+	background-color: #ffffff;
+	margin: 0 3% 0 0;
+	width: 36%;
 }
 
 h1 {
 
 	font-family: 'Cabin Sketch', cursive;
-	font-size: 96px;
+	font-size: 106px;
 	/*color: #e8ce7e;*/
 	color:#ed2461;
-    padding:40px 200px;
+    padding: 0;
+    margin:top: 3%;
+    margin-left: 8%;
 
 }
 
 h1.title {
 	font-family: 'NTR', sans-serif;
-	font-size: 64px;
+	font-size: 56px;
 	/*color: #ed2461;*/
 	color: #e8ce7e;
-	padding: 0;
 }
 
 
 
-
-article p{
+main p{
 	font-family: 'NTR', sans-serif;
-	font-size:18px;
-	margin: 10px 50px 10px 70px;
+	font-size:22px;
+}
+
+footer {
+	display: flex;
+	flex-direction: row;
+	height: 100px;
+	background-color: #ed2461;
+}
+
+footer a {
+	font-size: 20px;
+	margin-left: 50px;
+}
+
+
+
+img {
+	padding: 30px;
+}
+
+.balls {
+	align-self: center
+}
+
+.pastposts img {
+	width: 50%;
+	max-width: 100;
+	height: auto;
+}
+
+.selfie {
+	width: 50%;
+	max-width: 50%;
+	height: auto;
+	float: left;
+}
+.horse {
+	width: 40%;
+	max-width: 50%;
+	height: auto;
+	float: right;
 }
