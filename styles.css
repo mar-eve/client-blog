@@ -8,7 +8,7 @@ body {
 	background-color:#e8ce7e;
 }
 nav {
-	height: 70px;
+	height: 70px; 
 	background-color: #ed2461;
 	color: #ecebe6;
 	padding-left: 5%;
@@ -39,15 +39,13 @@ header {
 main {
 	display:flex;
 	flex-direction: row;
-	margin-top: 5%;
-
-
+	margin: 5% 0;
 }
 div.currentpost {
 	display: flex;
 	flex-direction: column;
 	background-color: #ffffff;
-	width: 55%;
+	width: 64%;
 	padding: 0 5% 0 5%;
 	margin: 0 3% 0 3%;
 }
@@ -55,10 +53,14 @@ div.currentpost {
 div.pastposts {
 	display: flex;
 	flex-direction: column;
-	align-content: space-around;
 	background-color: #ffffff;
 	margin: 0 3% 0 0;
-	width: 36%;
+	padding-top: 15%;
+	width: 27%;
+}
+
+article img {
+	
 }
 
 h1 {
@@ -76,8 +78,9 @@ h1 {
 h1.title {
 	font-family: 'NTR', sans-serif;
 	font-size: 56px;
-	/*color: #ed2461;*/
-	color: #e8ce7e;
+	color: #ed2461;
+	text-align: center;
+	/*color: #e8ce7e;*/
 }
 
 
@@ -101,18 +104,23 @@ footer a {
 
 
 
-img {
-	padding: 30px;
+.balls {
+	align-self: center;
+	width: 100%;
+	max-width: 100;
+	height: auto;
 }
 
-.balls {
-	align-self: center
-}
 
 .pastposts img {
 	width: 50%;
 	max-width: 100;
 	height: auto;
+	padding: 5%;
+}
+
+article img {
+	padding: 5%;
 }
 
 .selfie {
