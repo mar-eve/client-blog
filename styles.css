@@ -33,12 +33,16 @@ a:visited {
 }
 
 a:hover {
-	height: 30px; 
-	/*background: #ed2461 ;*/
+	height: 28px; 
+	background: #ededed; 
 	color: #fff;
 	font-size: 20px;
 	border: none;
+	font-weight: bold;
 	padding: 20px 20px;
+	border: solid #fff 1px;
+	text-shadow: 2px 2px 2px rgba(210, 200, 190, 1);
+	border-radius: 5px;
 }
 .pastbloglinks a:hover{
 	color: #aaa;
@@ -73,7 +77,8 @@ h1 {
 }
 
 h1.title {
-	font-family: 'NTR', sans-serif;
+	font-family: 'Cabin Sketch', cursive;
+	/*font-family: 'NTR', sans-serif;*/
 	font-size: 56px;
 	font-weight: 900;
 	color: #ed2461;
@@ -119,7 +124,8 @@ div.pastposts {
 
 
 .pastposts h2 {
-	color:#ed2461 ;
+	color:#000;
+	margin-top: 3%;
 	font-family: 'NTR', sans-serif;
 	font-size: 30px;
 
@@ -173,7 +179,7 @@ footer {
 	
 }
 
-.subscribe.a {
+.subscribe a {
 	display: inline-block;
 	height: 20px;
 	width: 30px;
