@@ -10,19 +10,43 @@ body {
 nav {
 	height: 70px; 
 	background-color: #ed2461;
-	color: #ecebe6;
 	padding-left: 5%;
 	margin-bottom: -70px;
 	
 
 }
-nav a{
-	color: #ffffff;
+a{
+
 	font-family: 'NTR', sans-serif;
 	font-size: 20px;
+	color: #ecebe6;	
 	text-decoration: none;
 	display:inline-block;
 	padding: 20px 20px;
+}
+
+a:link{
+
+}
+a:visited {
+
+}
+
+a:hover {
+	height: 30px; 
+	/*background: #ed2461 ;*/
+	color: #fff;
+	font-size: 20px;
+	border: none;
+	padding: 20px 20px;
+}
+.pastbloglinks a:hover{
+	color: #aaa;
+}
+
+a:active {
+	background: #ecebe6;
+	color: #ed2461;
 }
 
 header {
@@ -34,33 +58,6 @@ header {
 	background-size:contain; 
 	background-position:center; 
 	margin: 0;
-}
-
-main {
-	display:flex;
-	flex-direction: row;
-	margin: 5% 0;
-}
-div.currentpost {
-	display: flex;
-	flex-direction: column;
-	background-color: #ffffff;
-	width: 64%;
-	padding: 0 5% 0 5%;
-	margin: 0 3% 0 3%;
-}
-
-div.pastposts {
-	display: flex;
-	flex-direction: column;
-	background-color: #ffffff;
-	margin: 0 3% 0 0;
-	padding-top: 15%;
-	width: 27%;
-}
-
-article img {
-	
 }
 
 h1 {
@@ -78,6 +75,7 @@ h1 {
 h1.title {
 	font-family: 'NTR', sans-serif;
 	font-size: 56px;
+	font-weight: 900;
 	color: #ed2461;
 	text-align: center;
 	/*color: #e8ce7e;*/
@@ -90,91 +88,52 @@ main p{
 	font-size:22px;
 }
 
-footer {
-	/*display: flex;
+main {
+	display:flex;
 	flex-direction: row;
-	justify-content: center;*/
-	display: inline-block;
-	height: 100px;
-	width: 100%;
-	background-color: #ed2461;
+	margin: 5% 0;
+}
+div.currentpost {
+	display: flex;
+	flex-direction: column;
+	background-color: #ffffff;
+	width: 64%;
+	padding: 0 5% 0 5%;
+	margin: 0 3% 0 3%;
 }
 
-footer a {
-	font-size: 20px;
-	margin-left: 50px;
-	text-align: left;
-	text-decoration:none;
-	/* Change the hover background of this button to a gradient of white to light gray */
-	background: rgb(255, 255, 255);
-	background: -moz-linear-gradient(30deg, rgb(255, 255, 255) 30%, rgb(213, 213, 213) 70%);
-	background: -webkit-linear-gradient(30deg, rgb(255, 255, 255) 30%, rgb(213, 213, 213) 70%);
-	background: -o-linear-gradient(30deg, rgb(255, 255, 255) 30%, rgb(213, 213, 213) 70%);
-	background: -ms-linear-gradient(30deg, rgb(255, 255, 255) 30%, rgb(213, 213, 213) 70%);
-	background: linear-gradient(120deg, rgb(255, 255, 255) 30%, rgb(213, 213, 213) 70%);
-
-
-
-
-
-	border: 1px solid #000;
-	/* Add a text shadow to the button text to make it look 3d using 
-	http://css3gen.com/text-shadow/ */
-	text-shadow: 1px 1px 6px rgba(150, 150, 150, 0.91);
-	color: #000;
-}
-a:visited{
-	/* Change the visited background of this button to a gradient of light gray to white */
-	background: rgb(255, 255, 255);
-	background: -moz-linear-gradient(218deg, rgb(255, 255, 255) 30%, rgb(213, 213, 213) 70%);
-	background: -webkit-linear-gradient(218deg, rgb(255, 255, 255) 30%, rgb(213, 213, 213) 70%);
-	background: -o-linear-gradient(218deg, rgb(255, 255, 255) 30%, rgb(213, 213, 213) 70%);
-	background: -ms-linear-gradient(218deg, rgb(255, 255, 255) 30%, rgb(213, 213, 213) 70%);
-	background: linear-gradient(308deg, rgb(255, 255, 255) 30%, rgb(213, 213, 213) 70%);
-
-
-
-
-
-}
-/* use a:hover{  } for hover state of a button in which your cursor moves over 
-the button and the button changes */
-a:hover{
-	/* Change the hover background of this button to a gradient of dark blue to darker blue */
-
-	background: rgb(40, 88, 123);
-	background: -moz-linear-gradient(43deg, rgb(40, 88, 123) 30%, rgb(125, 146, 194) 70%);
-	background: -webkit-linear-gradient(43deg, rgb(40, 88, 123) 30%, rgb(125, 146, 194) 70%);
-	background: -o-linear-gradient(43deg, rgb(40, 88, 123) 30%, rgb(125, 146, 194) 70%);
-	background: -ms-linear-gradient(43deg, rgb(40, 88, 123) 30%, rgb(125, 146, 194) 70%);
-	background: linear-gradient(133deg, rgb(40, 88, 123) 30%, rgb(125, 146, 194) 70%);
-
-
-
-
-
-	border: 1px solid #fff;
-	/* Add a text shadow to the button text to make it look 3d using 
-	http://css3gen.com/text-shadow/ */
-	text-shadow: 1px 1px 6px rgba(150, 150, 150, 0.91);text-shadow: 1px 1px 6px rgba(150, 150, 150, 0.91);
-	color: #fff
+article img {
+	padding: 5%;
 }
 
-a:active{
-	/* Change the active background of this button to the same as the visited state*/
-	background: rgb(255, 255, 255);
-	background: -moz-linear-gradient(218deg, rgb(255, 255, 255) 30%, rgb(213, 213, 213) 70%);
-	background: -webkit-linear-gradient(218deg, rgb(255, 255, 255) 30%, rgb(213, 213, 213) 70%);
-	background: -o-linear-gradient(218deg, rgb(255, 255, 255) 30%, rgb(213, 213, 213) 70%);
-	background: -ms-linear-gradient(218deg, rgb(255, 255, 255) 30%, rgb(213, 213, 213) 70%);
-	background: linear-gradient(308deg, rgb(255, 255, 255) 30%, rgb(213, 213, 213) 70%);
+
+
+div.pastposts {
+	display: flex;
+	flex-direction: column;
+	background-color: #ffffff;
+	margin: 0 3% 0 0;
+	padding-top: 15%;
+	width: 27%;
 }
 
-footer p {
-	font-size: 17px;
-	text-align: right;
+
+.pastposts h2 {
+	color:#ed2461 ;
+	font-family: 'NTR', sans-serif;
+	font-size: 30px;
+
 }
 
+.pastbloglinks img{
+   margin-bottom: -80px;
+
+}
+
+.pastbloglinks a {
+	color:#000;
+	margin: 0 5%;
+}
 
 
 .balls {
@@ -191,11 +150,6 @@ footer p {
 	height: auto;
 	padding: 5% 0 20% 20%;
 }
-
-article img {
-	padding: 5%;
-}
-
 .selfie {
 	width: 50%;
 	max-width: 50%;
@@ -208,3 +162,51 @@ article img {
 	height: auto;
 	float: right;
 }
+
+footer {
+	/*display: flex;
+	flex-direction: row;
+	justify-content: center;*/
+	background-color: #ed2461;
+	height: 100px;
+	width: 100%;
+	
+}
+
+.subscribe.a {
+	display: inline-block;
+	height: 20px;
+	width: 30px;
+	border: solid #fff 1px;
+}
+
+
+footer p {
+	display: inline-block;
+	font-size: 17px;
+	text-align: right;
+}
+
+
+#social-media {
+	padding: 5px;
+	display: inline-block;
+}
+
+#facebook {
+	width: 13%;
+	max-width: 20%;
+	height: auto;
+}
+#twitter {
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+}
+#instagram {
+	width: 23%;
+	max-width: 50%;
+	height: auto
+}
+
+
